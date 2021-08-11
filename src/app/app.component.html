@@ -11,7 +11,7 @@
     </select>
     <div *ngIf="isSelected">
         <ul><li *ngFor="let x of fileList">
-            {{x.file}}
+            Name: {{x.file}}&nbsp;  Size: {{x.size}}&nbsp; Date Created: {{x.dateCreated}}
         </li></ul>
     </div>
     </div>
